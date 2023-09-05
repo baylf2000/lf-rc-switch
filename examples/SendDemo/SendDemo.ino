@@ -5,9 +5,9 @@
   
 */
 
-#include <RCSwitch.h>
+#include <LFRCSwitch.h>
 
-RCSwitch mySwitch = RCSwitch();
+LFRCSwitch mySwitch = LFRCSwitch();
 
 void setup() {
 
