@@ -4,9 +4,9 @@
   https://github.com/sui77/rc-switch/
 */
 
-#include <RCSwitch.h>
+#include <LFRCSwitch.h>
 
-RCSwitch mySwitch = RCSwitch();
+LFRCSwitch mySwitch = LFRCSwitch();
 
 void setup() {
   Serial.begin(9600);
