@@ -1,17 +1,17 @@
 {
-  "name": "rc-switch",
+  "name": "lf-rc-switch",
   "description": "Use your Arduino or Raspberry Pi to operate remote radio controlled devices",
   "keywords": "rf, radio, wireless",
   "authors":
   {
-    "name": "Suat Ozgur"
+    "name": "Lachlan Fletcher"
   },
   "repository":
   {
     "type": "git",
     "url": "https://github.com/sui77/rc-switch.git"
   },
-  "version": "2.6.4",
+  "version": "0.0.1",
   "frameworks": [
         "arduino",
         "energia",
