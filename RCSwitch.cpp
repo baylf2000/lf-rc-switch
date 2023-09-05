@@ -670,6 +670,7 @@ bool RECEIVE_ATTR RCSwitch::receiveProtocol(const int p, unsigned int changeCoun
 
 void RECEIVE_ATTR RCSwitch::handleInterrupt() {
 
+  Serial.println(".");
   static unsigned int changeCount = 0;
   static unsigned long lastTime = 0;
   static unsigned int repeatCount = 0;
