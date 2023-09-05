@@ -27,8 +27,8 @@
   License along with this library; if not, write to the Free Software
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-#ifndef _RCSwitch_h
-#define _RCSwitch_h
+#ifndef _LFRCSwitch_h
+#define _LFRCSwitch_h
 
 #if defined(ARDUINO) && ARDUINO >= 100
     #include "Arduino.h"
@@ -60,10 +60,10 @@
 // We can handle up to (unsigned long) => 32 bit * 2 H/L changes per bit + 2 for sync
 #define RCSWITCH_MAX_CHANGES 67
 
-class RCSwitch {
+class LFRCSwitch {
 
   public:
-    RCSwitch();
+    LFRCSwitch();
     
     void switchOn(int nGroupNumber, int nSwitchNumber);
     void switchOff(int nGroupNumber, int nSwitchNumber);
