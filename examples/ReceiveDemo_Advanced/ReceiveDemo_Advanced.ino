@@ -7,9 +7,9 @@
   paste it into http://test.sui.li/oszi/
 */
 
-#include <RCSwitch.h>
+#include <LFRCSwitch.h>
 
-RCSwitch mySwitch = RCSwitch();
+LFRCSwitch mySwitch = LFRCSwitch();
 
 void setup() {
   Serial.begin(9600);
